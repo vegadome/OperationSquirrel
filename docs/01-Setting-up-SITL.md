@@ -38,7 +38,7 @@ This document will guide you through setting up the entire workflow needed for d
 1. First time setup of SITL
     - <https://ardupilot.org/dev/docs/setting-up-sitl-on-linux.html#setting-up-sitl-on-linux>
         - Look under **Start SITL simulator**.  It will have you execute the simulation twice, first with the `-w` flag to clear the virtual EEPROM.  You only need to do this on the first set up and if you want to wipe the parameters.
-              * le fichier sim_vehicle.py se trouve : /home/ryker/drone/lib/ardupilot/Tools/autotest
+          * le fichier **sim_vehicle.py** se trouve : /home/ryker/drone/lib/ardupilot/Tools/autotest
 2. SITL tutorial
     - <https://ardupilot.org/dev/docs/copter-sitl-mavproxy-tutorial.html>
         - This will help you just get the thing up in the air so you can see it move.  Very basic but it's the "hello world" of ArduPilot SITL.
