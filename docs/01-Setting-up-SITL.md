@@ -40,7 +40,11 @@ This document will guide you through setting up the entire workflow needed for d
         - Look under **Start SITL simulator**.  It will have you execute the simulation twice, first with the `-w` flag to clear the virtual EEPROM.  You only need to do this on the first set up and if you want to wipe the parameters.
           * on doit installer pipx mavproxy
               * sudo apt install pipx
-              *  pipx install mavproxy
+              * pipx install mavproxy
+              * necessaire avec l'installation de pipx 
+                  *  nano ~/.bashrc
+                  *  export PATH=$PATH:/home/ryker/.local/bin
+                  *  source ~/.bashrc
           * le fichier **sim_vehicle.py** se trouve : /home/ryker/drone/lib/ardupilot/Tools/autotest
 2. SITL tutorial
     - <https://ardupilot.org/dev/docs/copter-sitl-mavproxy-tutorial.html>
