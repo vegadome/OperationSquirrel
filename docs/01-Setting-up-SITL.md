@@ -46,7 +46,7 @@ This document will guide you through setting up the entire workflow needed for d
                   *  export PATH=$PATH:/home/ryker/.local/bin
                   *  source ~/.bashrc
               * sudo apt install python3-setuptools
-          * le fichier **sim_vehicle.py** se trouve : /home/ryker/drone/lib/ardupilot/Tools/autotest
+          * le fichier **sim_vehicle.py** se trouve : /home/ryker/drone/lib/ardupilot/Tools/autotest -v copter --console --map -w
 2. SITL tutorial
     - <https://ardupilot.org/dev/docs/copter-sitl-mavproxy-tutorial.html>
         - This will help you just get the thing up in the air so you can see it move.  Very basic but it's the "hello world" of ArduPilot SITL.
