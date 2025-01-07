@@ -45,6 +45,7 @@ This document will guide you through setting up the entire workflow needed for d
                   *  nano ~/.bashrc
                   *  export PATH=$PATH:/home/ryker/.local/bin
                   *  source ~/.bashrc
+              * sudo apt install python3-setuptools
           * le fichier **sim_vehicle.py** se trouve : /home/ryker/drone/lib/ardupilot/Tools/autotest
 2. SITL tutorial
     - <https://ardupilot.org/dev/docs/copter-sitl-mavproxy-tutorial.html>
