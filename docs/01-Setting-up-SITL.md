@@ -14,6 +14,9 @@ This document will guide you through setting up the entire workflow needed for d
     - <https://ardupilot.org/dev/docs/building-setup-linux.html#building-setup-linux>
     - You don’t need the git gui and WSL2 should come with git.  You should only need to follow the instructions        to clone the repo and install the required packages with the shell script.
 3. Confirm that your build environment is set up properly
+    - Avant de continuer il faut faire :
+          * git submodule update --init --recursive
+          * sudo apt install python3-future
     - <https://github.com/ArduPilot/ardupilot/blob/dev/BUILD.md>
     - In WSL2 just change directories to the ardupilot/ArduCopter directory (wherever you cloned it)
         - `cd ardupilot/ArduCopter`
@@ -22,7 +25,7 @@ This document will guide you through setting up the entire workflow needed for d
     - Build with waf
         - `./waf copter`
     - It might take a few minutes but shouldn’t be too long.  You’ll see the files that are compiled.
-4. Xserver setup
+5. Xserver setup
     - <https://ardupilot.org/dev/docs/building-setup-windows10.html#building-setup-windows10>
         - Look at the **Using SITL with WSL and XWindows (Windows 10 only)** heading and **Using VcXsrv to Create           XWindows Displays** sections towards the bottom.
     - This page may be helpful in setting up the linux display windows
