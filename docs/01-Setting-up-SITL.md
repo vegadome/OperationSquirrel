@@ -15,8 +15,8 @@ This document will guide you through setting up the entire workflow needed for d
     - You don’t need the git gui and WSL2 should come with git.  You should only need to follow the instructions        to clone the repo and install the required packages with the shell script.
 3. Confirm that your build environment is set up properly
     - Avant de continuer il faut faire :
-          * git submodule update --init --recursive
-          * sudo apt install python3-future
+      * git submodule update --init --recursive
+      * sudo apt install python3-future
     - <https://github.com/ArduPilot/ardupilot/blob/dev/BUILD.md>
     - In WSL2 just change directories to the ardupilot/ArduCopter directory (wherever you cloned it)
         - `cd ardupilot/ArduCopter`
